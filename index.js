@@ -1,6 +1,5 @@
 random()
 const music = new Audio("./src/sounds/music.mp3");
-music.play()
 const acertos = new Audio("./src/sounds/acerto.wav");
 const erros = new Audio("./src/sounds/erro.wav");
 
@@ -28,7 +27,7 @@ function random(){
 //pegando tecla que foi apertada pelo usuário
 window.addEventListener('keydown', function (e) {
     document.querySelector('#keyDown').innerHTML = `${e.key}` 
-    
+    music.play()
     
   
     let randomKey = document.getElementById('randomKey').innerText
