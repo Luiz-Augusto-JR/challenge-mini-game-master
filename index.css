@@ -1,0 +1,83 @@
+
+@font-face { font-family: Pixel; 
+    src: url('./src/fonts/PixelGameFont.ttf'); } 
+
+* {
+    box-sizing: border-box;
+    font-family: Pixel;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(251, 255, 0);
+}
+
+.container {
+    background-color: #003cff;
+    padding: 2rem;
+    border-radius: 3rem;
+    width: 700px;
+    height: 300px;
+    max-width: 90%;
+}
+
+#keyDown{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+    color: rgb(229, 255, 0);
+    text-transform:uppercase;
+}
+
+.timer {
+    position: absolute;
+    top: 12rem;
+    font-size: 4rem;
+    color:#ffffff
+}
+
+.display{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+    color: rgb(229, 255, 0);
+    text-transform:uppercase;
+}
+
+.input {
+    padding: 1rem;
+    outline: none;
+    background-color: #00000000;
+    color: #000000;
+    font-size: 5rem;
+    width: 100%;
+    height: 110px;
+    border: 3px solid;;
+    border-radius: 1rem;
+    border-color: rgba(0, 0, 0, 0.884);
+    text-align: center;
+    resize: none;
+    overflow: hidden;
+}
+
+.acertos {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    font-size: 4rem;
+    color:#2bff00
+}
+
+.erros {
+    position: absolute;
+    top: 10rem;
+    right: 15rem;
+    font-size: 4rem;
+    color:#ff0000
+}
