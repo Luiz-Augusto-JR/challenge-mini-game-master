@@ -59,7 +59,7 @@ window.addEventListener('keydown', function (e) {
 //timer
 const timer = document.getElementById('timer');
 
-const startingMinutes = 1;
+const startingMinutes = 0.1;
 let time = startingMinutes * 60 
 
 let counter = setInterval(updateTimer,1000)
@@ -77,7 +77,6 @@ let counter = setInterval(updateTimer,1000)
         function reset(){
             if(minutes === 0){
                 clearInterval(counter);
-                document.location.reload(true);
             }
         }
     }
