@@ -3,7 +3,6 @@
     src: url('./src/fonts/PixelGameFont.ttf'); } 
 
 * {
-    box-sizing: border-box;
     font-family: Pixel;
 }
 
@@ -15,15 +14,6 @@ body {
     margin: 0;
     background: url(./src/images/dia.png);
     background-size: cover;
-}
-
-.container {
-    background-color: #7cd43400;
-    padding: 2rem;
-    border-radius: 3rem;
-    width: 700px;
-    height: 300px;
-    max-width: 90%;
 }
 
 #keyDown{
@@ -51,12 +41,6 @@ body {
     justify-content: center;
     display: flex;
 }
-.display{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
 
 .input {
     padding: 1rem;
