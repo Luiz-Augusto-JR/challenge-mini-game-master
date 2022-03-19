@@ -52,7 +52,7 @@
     const timer = document.getElementById('timer');
 
     // definindo as variaveis de tempo
-    const startingMinutes = 0.1;
+    const startingMinutes = 1;
     let time = startingMinutes * 60 
 
     // intervalo q executa a função updateTimer
